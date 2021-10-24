@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: rgb(112, 200, 241);
+                color: rgb(15, 15, 14);
+            }
+        </style>
+        <title> welcome to form validation check</title>
+    </head>
+    <body>
+        <script src="formValidation.js"></script>
+        <h1 style="text-align: center;">Form validation check </h1>
+        <form style="text-align: center;" name="xyz" >
+            <div>
+<label><b>User Name:</b></label>
+<input type="text" placeholder="User Name" id="user">
+<span id="username"></span>
+</div><br><br>
+               <div>
+<label><b>Password</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="password" placeholder="Enter your password" id="pass">
+<label id="passErr" ></label>
+<span id="passwors"></span>
+</div><br><br>
+                      <div>
+<label><b>Confirm password</b></label>
+<input type="password" placeholder="comfirm your password" id="conpass">
+<span id="confirmpass"></span>
+</div><br><br>
+                     <div>
+    <label><b>Ph No.: </b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="number" placeholder="9830*****" id="num">
+    <span id="number"></span>
+</div><br><br>
+                      <div>
+<label><b>Email:</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="email" placeholder="email" id="email">
+<span id="emails"></span>
+</div><br><br>
+
+<button type="button" name="submit"  onclick="validtion()">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+   
+    </body>
+</html>
